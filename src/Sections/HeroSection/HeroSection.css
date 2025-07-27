@@ -192,4 +192,8 @@ align-items: end;
     width: 100%;
     margin-bottom: 40px;
 }
+.about_section{
+        padding-top: 40px;
+    padding-bottom: 40px;
+}
 }
