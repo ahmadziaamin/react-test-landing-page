@@ -1,12 +1,49 @@
-# React + Vite
+# The Clear Quran Audiobook – DRAMATIZED (Landing Page)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive landing page built with **React** and **React-Bootstrap** showcasing the dramatized audiobook of *The Clear Quran*. This project focuses on modern UI/UX principles and smooth layout transitions to offer a clean, engaging user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✨ One-page responsive design
+- 📱 Optimized for mobile, tablet, and desktop
+- 📦 Built with React + Vite for fast performance
+- 🎨 Integrated with **Poppins** and **Inter** Google Fonts
+- 🧭 Fully functional navbar with collapse on mobile
+- 📥 Download buttons for App Store and Play Store
+- 📁 Clean folder structure and scalable component setup
+
+---
+
+## 🛠️ Tech Stack
+
+- React `18+`
+- Vite
+- React-Bootstrap
+- CSS (No Tailwind used)
+- Google Fonts (Poppins + Inter)
+
+---
+
+
+## ✅ Setup Instructions
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/ahmadziaamin/react-test-landing-page.git
+cd react-test-landing-page
+
+
+ Install Dependencies
+ npm install
+
+
+  Run the App
+
+  npm run dev
+
+  The app will run on http://localhost:5173
+
