@@ -1,8 +1,8 @@
 .footer {
-    padding-top: 100px;
-    padding-bottom: 40px;
+  padding-top: 100px;
+  padding-bottom: 40px;
   background-color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #3f4754;
 }
 
@@ -13,8 +13,6 @@
   align-items: flex-start;
   gap: 20px;
 }
-
-
 
 .footer-logo {
   width: 56px;
@@ -29,7 +27,7 @@
   font-size: 16px;
   font-weight: 400;
   color: #535862;
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .footer-links {
@@ -37,17 +35,15 @@
   padding: 0;
   display: flex;
   gap: 25px;
-  color: #535862 ;
+  color: #535862;
   cursor: pointer;
 }
 .footer-links li {
-font-size: 16px;
-line-height: 24px;
-font-weight: 600;
-  font-family: 'Inter', sans-serif;
-
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
 }
-
 
 .footer-links li:hover {
   text-decoration: underline;
@@ -67,7 +63,7 @@ font-weight: 600;
 .footer-divider {
   margin: 30px 0;
   border: none;
-  border-top: 3px solid #E9EAEB
+  border-top: 3px solid #e9eaeb;
 }
 
 .footer-bottom {
@@ -75,22 +71,20 @@ font-weight: 600;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  
-
 }
-.footer-bottom p{
+.footer-bottom p {
   line-height: 24px;
   font-size: 16px;
   font-weight: 400;
   color: #535862;
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
-.footer-right h4{
-    line-height: 24px;
+.footer-right h4 {
+  line-height: 24px;
   font-size: 16px;
   font-weight: 500;
   color: #535862;
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .social-icons img {
   width: 28px;
@@ -99,21 +93,28 @@ font-weight: 600;
   cursor: pointer;
 }
 
-@media (max-width: 860px){
-.footer-links{
+@media (max-width: 860px) {
+  .footer-links {
     flex-direction: column;
     margin-top: 30px;
-}
-.footer-top{
+  }
+  .footer-top {
     flex-direction: column;
-}
-.footer-bottom{
+  }
+  .footer-bottom {
     flex-direction: column;
- align-items: flex-start;
-}
-footer {
+    align-items: flex-start;
+  }
+  footer {
     padding-top: 50px;
     padding-bottom: 20px;
-  
-}
+  }
+  .social-icons img {
+    width: 28px;
+    height: 28px;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
 }
